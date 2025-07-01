@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>Calculate average marks</h1>
+
+        <form action="{{url_for('form')}}" method="POST">
+            <input type="text" id="maths" name="maths" placeholder="Maths" required="required">
+            <input type="text" id="science" name="science" placeholder="Science" required="required">
+            <input type="text" id="history" name="history" placeholder="Histroy" required="required">
+            <button type="submit">calculate button</button>
+        </form>
+        <br> 
+        The average marks is {{score}}   
+        <br>
+       
+    </body>
+</html>
