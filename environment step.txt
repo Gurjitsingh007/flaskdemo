@@ -1,0 +1,22 @@
+1.first make folder and open it
+   then open terminal in vs and open command prompt in it
+
+2. type conda create -p {name} python={version} -y
+
+3. after that
+create app.py
+and requirement.txt file {flask}
+
+4.. open again terminal and type
+
+pip install -r requirement.txt
+
+and start code.....
+
+
+................................................
+step for link html and css and python file
+
+in html file for connect css: 
+
+<link rel="stylesheet" herf="{{url_for('static',filename='style.css')}}">

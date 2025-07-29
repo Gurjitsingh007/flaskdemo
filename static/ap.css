@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(199, 219, 162);
+}
+header{
+    box-sizing:calc(20px,22px);
+    background-color: blueviolet;
+      margin-top: 50px;
+    margin-left: 2px;
+    margin-right:2px;
+    margin-bottom:80px;
+
+}
+
+
+h1{
+  
+    
+    padding-block: 30px;
+
+    text-align: center;
+}
+button{
+   margin-top: 2px;
+    padding-block: 2px;
+    text-align: center;
+   
+}
+form{
+    padding-block: 1px;
+    text-align: center;
+}

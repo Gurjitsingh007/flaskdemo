@@ -1,0 +1,35 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='ap.css')}}">
+    </head>
+    <body>
+        <header>
+             <h1>Login!</h1>
+            
+        </header>
+       
+
+        <form action="{{url_for('form1')}}" method="POST">
+            <div1>
+            <input type="text" id="username" name="username"
+             placeholder="username" required="required">
+            </div1>
+            <br>
+            <div1>
+
+            <input type="text" id="pasword" name="password" placeholder="password" required="required">
+            </div1>
+            <br>
+        <button>
+             <button type="submit">login</button>
+
+        </button>
+        <br>
+        <p1>Register here ?</p1>
+           
+        </form>
+        <br>    
+        <br>
+       
+    </body>
+</html>
